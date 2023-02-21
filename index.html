@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer con JavaScript</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="titulo">
+      <h1>Timer personalizado</h1>
+    </div>
+    <div class="clock">
+      <input class="number" type="text" maxlength="2" value="00"><span>hs</span>
+      <input class="number" type="text" maxlength="2" value="00"><span>min</span>
+      <input class="number" type="text" maxlength="2" value="00"><span>seg</span>
+    </div>
+    <div class="buttons">
+      <button id="play" onclick="startTimer()"></button>
+      <button id="stop" onclick="stopTimer()"></button>
+    </div>
+  </div>
+  <footer class="footer">
+    <span class="left">Copyright © Mauricio Colina - 2023</span>
+    <span class="right">Todos los derechos reservados</span>
+  </footer>
+  <script src="./js/timer.js"></script>
+</body>
+</html>
